@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "a7f6f03e-ac41-4506-b371-7e49d6234b51",
+		"name": "Petstore",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "StatusAvailable",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{PROTOCOL}}://{{HOSTNAME}}/swagger-petstore/pet/findByStatus?status=available",
+					"protocol": "{{PROTOCOL}}",
+					"host": [
+						"{{HOSTNAME}}"
+					],
+					"path": [
+						"swagger-petstore",
+						"pet",
+						"findByStatus"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "available"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ID100",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{PROTOCOL}}://{{HOSTNAME}}/swagger-petstore/pet/1000",
+					"protocol": "{{PROTOCOL}}",
+					"host": [
+						"{{HOSTNAME}}"
+					],
+					"path": [
+						"swagger-petstore",
+						"pet",
+						"1000"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "27e795c0-5859-4db4-a66f-04c2c66434b5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "078ab821-d8f7-485c-8d2c-a29caccdcde8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
