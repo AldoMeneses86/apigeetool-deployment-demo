@@ -18,6 +18,13 @@
             "email": "developer@example.com",
             "firstName": "Georges",
             "lastName":  "Habitbol"
+        },
+        {
+            "attributes": [{"name":"Experience", "value":"Senior"}],
+            "userName": "xoxo",
+            "email": "developer@example.com",
+            "firstName": "Georges",
+            "lastName":  "Habitbol"
         }
     ],
     "Application": [
