@@ -21,7 +21,7 @@ jobs:
     
     - name: Deployment
       id: deployment
-      uses: AldoMeneses86/apigeetool-deployment-action@v2.6.2
+      uses: AldoMeneses86/apigeetool-deployment-action@master
       with:
         APIGEETOOL_ERROR_STOP: "false"
         APIGEE_USERNAME: ${{ secrets.APIGEE_ID }}
